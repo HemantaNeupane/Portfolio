@@ -1,0 +1,47 @@
+@keyframes nav-anim {
+    0%{
+        margin-left: -100vw;
+    }
+    100%{
+        margin-left: 0;
+    }
+}
+@keyframes nav-anim-close {
+    0%{
+        margin-left: 0px;
+    }
+    100%{
+        margin-left: -100vw;
+    }
+}
+@keyframes nav-anim-mobile {
+    0%{
+        margin-top: -100vh;
+        transform: scale(1,0);
+    }
+    100%{
+        transform: scale(1,1);
+        margin-top: 0;
+    }
+}
+@keyframes nav-anim-mobile-close {
+    0%{
+        margin-top: 0px;
+        transform: scale(1,1);   
+    }
+    90%{
+        transform: scale(1,0);
+    }
+    100%{
+        margin-top: -100vh;
+        transform: scale(1,0);
+    }
+}
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
