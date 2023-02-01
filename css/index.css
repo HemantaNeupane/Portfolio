@@ -16,10 +16,22 @@ body{
     overflow-x: hidden;
     background-color: var(--primary);
     background-image: radial-gradient(var(--primary),var(--secondary));
-
 }
 
+#content {
+    margin-left: 20%;
+    max-width: 80%;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5%;
+    color: wheat;
+}
+
+
 #nav{
+    position: fixed;
     background-color: var(--secondary);
     width: 20%;
     min-height: 100%;
@@ -36,6 +48,10 @@ body{
     justify-content: left;
     align-items: left;
 }
+
+
+
+
 .nav-links{
     width: 100%;
     display: flex;
@@ -52,7 +68,7 @@ body{
     max-width: 100%;
     overflow-x: hidden;
     font-size: var(--nav-font);
-    animation: nav-anim 800ms ease-out;
+    /* animation: nav-anim 800ms ease-out; */
     
 }
 .nav-item:hover{
