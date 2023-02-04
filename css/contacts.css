@@ -1,0 +1,27 @@
+.links{
+    display: flex;
+    flex-direction: column;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    transition: all 600ms;
+}
+.link:hover{
+    font-size: 1.2em;
+    font-weight: 550;
+}
+.link img:hover{
+    width: 55px;
+}
+.link img{
+    width: 50px;
+    margin-right: 10px;
+    transition: all 600ms;
+
+}

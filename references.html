@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>References</title>
     <link rel="stylesheet" href="./css/index.css">
 </head>
+<style>
+    ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    }
+    ul li{
+        max-width: 80%;
+        transition: 500ms all;
+        padding: 15px;
+    }
+    ul li:hover{
+        background-color: rgba(240, 248, 255, 0.219);
+        box-shadow: 0px 0px 10px rgba(254, 254, 255, 0.452);
+        transform: scale(1.05,1.05) translate(1%,0);
+    }
+    ul li a{
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        font-size: 1.5em;
+        color: rgb(223, 221, 221);
+        
+    }
+</style>
 <body>
     <div id="nav">
         <div class="nav-container">
@@ -22,6 +47,7 @@
                 <a href="./index.html" class="nav-item">Home</a>
                 <a href="./about.html" class="nav-item">About</a>
                 <a href="./contacts.html" class="nav-item">Contacts</a>
+                <a href="./blogs.html" class="nav-item">Blogs</a>
                 <a href="./references.html" class="nav-item current-page">References</a>
             </div>
         </div>
@@ -33,5 +59,17 @@
         </div>
     </div>
     <script src="./js/index.js"></script>
+    <div id="content">
+        <section>
+            <h1 class="main-heading">Citations</h1>
+            <p>
+                I used resources from these sites to complete this portfolio...
+            </p>
+            <ul>
+                <li><a href="https://www.w3schools.com/css/">W3Schools (CSS)</a></li>
+                <li><a href="https://www.flaticon.com/">FlatIcons (Icons)</a></li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>

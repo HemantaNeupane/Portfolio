@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <style>
+        .linkblog{
+            position: absolute;
+            top: 50%;
+            left: 60%;
+            font-size: 3em;
+            color: var(--font-color);
+            text-decoration: none;
+            width: max-content;
+            cursor: pointer;
+            padding: 3vw 7.5vw;
+            transition: all 600ms;
+            border: 3px solid var(--font-color);
+            border-radius: 50px;
+            transform: translate(-50%,-50%);
+        }
+        .linkblog:hover{
+            letter-spacing: 5px;
+            transform: translate(-50%,-50%);
+        }
+        @media screen and (max-width:768px) {
+            .linkblog{
+                position: absolute;
+                top: 30%;
+                left: 50%;
+                font-size: 1.5em;
+                width: 80%;
+                color: var(--font-color);
+                text-decoration: none;
+                width: max-content;
+                padding: 2vw 6vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <div class="nav-container">
+            <div class="navigation-header">
+                <h2 class="navigation-header-text">Navigation</h2>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <div class="nav-links">
+                <a href="./index.html" class="nav-item">Home</a>
+                <a href="./about.html" class="nav-item">About</a>
+                <a href="./contacts.html" class="nav-item">Contacts</a>
+                <a href="./blogs.html" class="nav-item  current-page">Blogs</a>
+                <a href="./references.html" class="nav-item">References</a>
+            </div>
+        </div>
+        <div class="nav-footer">
+            <span class="copyright">
+                &#169; Hemanta Neupane<br>
+                All rights reserved 2023
+            </span>
+        </div>
+    </div>
+    <div id="content">
+        <a class="linkblog" href="https://hemanthblogherald.wordpress.com/">Link to Blogs ...</a>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>

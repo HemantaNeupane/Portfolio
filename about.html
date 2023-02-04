@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About</title>
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/about.css">
 </head>
 <body>
     <div id="nav">
@@ -22,6 +23,7 @@
                 <a href="./index.html" class="nav-item">Home</a>
                 <a href="./about.html" class="nav-item current-page">About</a>
                 <a href="./contacts.html" class="nav-item">Contacts</a>
+                <a href="./blogs.html" class="nav-item">Blogs</a>
                 <a href="./references.html" class="nav-item">References</a>
             </div>
         </div>
@@ -32,6 +34,48 @@
             </span>
         </div>
     </div>
+    <div id="content">
+        <section>
+            <h1 class="main-heading about-me-header">About Me</h1>
+            <p class="description">
+                Hello, I welcome you to my website. <br>
+                I am from Jhapa, Nepal and currently residing in Gothatar, Kathmandu. I am a <span id="age"></span> year old energetic fellow
+                with great interest in technology. I am a student currently enrolled in Bsc.(Hons) Computer Science at Herald College Kathmandu.
+            </p>
+        </section>
+        <section>
+            <h2 class="sub-heading">My Education</h2>
+            <div class="journey">
+                
+                <div class="journey-item st-pauls">
+                    <h2 class="course">till Grade 6,</h2>
+                    <h2 class="institution">St. Pauls School</h2>
+                    <h3 class="date">2005 to 2014</h3>
+                </div>
+                <div class="journey-item timeline">
+                    <h2 class="course">to Grade 10,</h2>
+                    <h2 class="institution">Timeline School</h2>
+                    <h3 class="date">2014 to 2017</h3>
+                </div>
+                <div class="journey-item st-lawrence">
+                    <h2 class="course">Highschool</h2>
+                    <h2 class="institution">St. Lawrence College</h2>
+                    <h3 class="date">2018 to 2019</h3>
+                </div>
+                <div class="journey-item herald">
+                    <h2 class="course">BIT</h2>
+                    <h2 class="institution">Herald College Kathmandu</h2>
+                    <h3 class="date">2022 to Present</h3>
+                </div>
+            </div>
+        </section>
+    </div>
     <script src="./js/index.js"></script>
+    <script>
+        let currentYear = new Date().getFullYear()
+        let age = currentYear-2002;
+        document.getElementById("age").textContent = age
+        
+    </script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 :root{
-    --primary:#313535;
-    --secondary:#1d1d1d;
-    --font-color:rgb(230, 230, 230);
+    --secondary:rgb(7, 32, 25);
+    --primary:rgb(12,59,46);;
+    --font-color:rgb(223, 221, 221);
 
     --nav-font:1.7em;
 }
