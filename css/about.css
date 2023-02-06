@@ -1,3 +1,13 @@
+@import url(./anim.css);
+#profile-pic{
+    float: right;
+    width: 25vw;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 10%;
+    margin-top: -15%;
+    opacity: 0.8;
+    animation: profile-animation 20s ease-out infinite;
+}
 .journey{
     display: flex;
     flex-direction: column;
@@ -47,6 +57,7 @@
     background-color: rgba(70, 68, 65, 0.6);
 }
 
+
 @media screen and (max-width:768px) {
     .journey-item{
         margin: 10px;
@@ -69,7 +80,12 @@
         left: 15%;
         background-color: rgba(70, 68, 65, 0.3);
     }
-    .about-me-header{
-        display: none;
+    #profile-pic{
+        float: none;
+        z-index: -1;
+        position: absolute;
+        top: 10vh;
+        right: 1%;
+        width: 35vh;
     }
 }

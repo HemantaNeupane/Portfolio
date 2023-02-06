@@ -1,7 +1,8 @@
 :root{
     --secondary:rgb(7, 32, 25);
-    --primary:rgb(12,59,46);;
-    --font-color:rgb(223, 221, 221);
+    --primary:rgb(12, 46, 36);
 
+
+    --font-color:rgb(223, 221, 221);
     --nav-font:1.7em;
 }
