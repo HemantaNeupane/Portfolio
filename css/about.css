@@ -6,7 +6,6 @@
     border-bottom-right-radius: 10%;
     margin-top: -15%;
     opacity: 0.8;
-    animation: profile-animation 20s ease-out infinite;
 }
 .journey{
     display: flex;
